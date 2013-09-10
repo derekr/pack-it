@@ -1,0 +1,24 @@
+{
+  "author": "Derek Reynolds <drk@diy.org> (http://drk.es)",
+  "name": "pack-it",
+  "description": "Decorite a list of items to be layed out in a grid.",
+  "version": "1.0.0",
+  "homepage": "https://github.com/derekr/pack-it",
+  "repository": {
+    "type": "git",
+    "url": "derekr/pack-it"
+  },
+  "main": "./index.js",
+  "scripts": {
+    "test": "tap ./test/*.js"
+  },
+  "devDependencies": {
+    "async": "~0.1.22",
+    "tap": "~0.3.1",
+    "codebux": "~0.1.2"
+  },
+  "optionalDependencies": {},
+  "engines": {
+    "node": ">=0.6"
+  }
+}
